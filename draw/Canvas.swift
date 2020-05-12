@@ -37,7 +37,8 @@ class Canvas: UIView {
         touchPoint = touches.first?.location(in: self)
         path = UIBezierPath()
         path.move(to: startPoint)
-        path.addLine(to: touchPoint)
+        path.addArc(withCenter: touchPoint, radius: setWidth, startAngle: 0, endAngle: 0, clockwise: false)
+        //path.addLine(to: touchPoint)
         startPoint = touchPoint
         draw()
     }
