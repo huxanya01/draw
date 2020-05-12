@@ -21,10 +21,6 @@ class Canvas: UIView {
     
     var lineColor:UIColor!
     
-    func ew(){
-        setEraserWidth = _eraserWidth
-    }
-    
     func rgbaw(){
         lineColor = UIColor(displayP3Red: setRed/255, green: setGreen/255, blue: setBlue/255, alpha: setAlpha/100)
        }
@@ -51,7 +47,7 @@ class Canvas: UIView {
         let shapeLayer = CAShapeLayer()
         shapeLayer.path = path.cgPath
         if isEraser == false{
-        shapeLayer.strokeColor = lineColor.cgColor
+            shapeLayer.strokeColor = lineColor.cgColor
             shapeLayer.lineWidth = setWidth
         }else{
             shapeLayer.strokeColor =
@@ -66,9 +62,11 @@ class Canvas: UIView {
     }
     
     func clearCanvas(){
+        if path != nil{
         path.removeAllPoints()
         self.layer.sublayers = nil
         self.setNeedsDisplay()
+        }
     }
     
     
@@ -93,8 +91,8 @@ extension UIView{
         let toastLb = UILabel()
         toastLb.numberOfLines = 0
         toastLb.lineBreakMode = .byWordWrapping
-        toastLb.backgroundColor = UIColor.black.withAlphaComponent(0.7)
-        toastLb.textColor = UIColor.gray
+        toastLb.backgroundColor = UIColor.gray.withAlphaComponent(0.7)
+        toastLb.textColor = UIColor.white
         toastLb.layer.cornerRadius = 10.0
         toastLb.textAlignment = .center
         toastLb.text = text
