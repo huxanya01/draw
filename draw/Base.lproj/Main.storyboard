@@ -23,7 +23,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="清空">
-                                    <color key="titleColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -45,31 +45,31 @@
                                         <rect key="frame" x="75" y="12.5" width="250" height="200"/>
                                         <subviews>
                                             <slider hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="255" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="Wne-t3-iRs">
-                                                <rect key="frame" x="-2" y="0.0" width="1138" height="1"/>
+                                                <rect key="frame" x="-2" y="0.0" width="1142" height="1"/>
                                                 <connections>
                                                     <action selector="sliderAct:" destination="BYZ-38-t0r" eventType="valueChanged" id="Eda-i0-YJD"/>
                                                 </connections>
                                             </slider>
                                             <slider hidden="YES" opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="255" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="giH-aZ-AEb">
-                                                <rect key="frame" x="-2" y="0.0" width="1138" height="1"/>
+                                                <rect key="frame" x="-2" y="0.0" width="1142" height="1"/>
                                                 <connections>
                                                     <action selector="sliderAct:" destination="BYZ-38-t0r" eventType="valueChanged" id="hxp-uw-3vM"/>
                                                 </connections>
                                             </slider>
                                             <slider hidden="YES" opaque="NO" tag="2" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="255" minValue="0.0" maxValue="255" translatesAutoresizingMaskIntoConstraints="NO" id="2ES-bV-7VX">
-                                                <rect key="frame" x="-2" y="0.0" width="1138" height="1"/>
+                                                <rect key="frame" x="-2" y="0.0" width="1142" height="1"/>
                                                 <connections>
                                                     <action selector="sliderAct:" destination="BYZ-38-t0r" eventType="valueChanged" id="heW-W6-k71"/>
                                                 </connections>
                                             </slider>
                                             <slider hidden="YES" opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="100" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="19F-Bu-h1y">
-                                                <rect key="frame" x="-2" y="0.0" width="1138" height="1"/>
+                                                <rect key="frame" x="-2" y="0.0" width="1142" height="1"/>
                                                 <connections>
                                                     <action selector="sliderAct:" destination="BYZ-38-t0r" eventType="valueChanged" id="qkG-5o-k6I"/>
                                                 </connections>
                                             </slider>
                                             <slider hidden="YES" opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="1" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Fid-cb-I7P">
-                                                <rect key="frame" x="-2" y="0.0" width="1138" height="1"/>
+                                                <rect key="frame" x="-2" y="0.0" width="1142" height="1"/>
                                                 <connections>
                                                     <action selector="sliderAct:" destination="BYZ-38-t0r" eventType="valueChanged" id="uPV-8L-418"/>
                                                 </connections>
@@ -181,7 +181,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="其他">
-                                    <color key="titleColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -200,7 +200,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="調配">
-                                    <color key="titleColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -219,7 +219,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="存擋">
-                                    <color key="titleColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
